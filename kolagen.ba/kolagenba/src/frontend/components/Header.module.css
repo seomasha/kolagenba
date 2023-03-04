@@ -1,0 +1,130 @@
+.all{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    margin: 3px 0px;
+
+    justify-content: space-between;
+
+    font-family: 'Louis George Cafe Light', sans-serif;
+    border-bottom: 1px solid #3DB54A;
+}
+
+.headerl{
+    display: flex;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0px 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+
+.headerl h3{
+    padding: 0px 3px;
+}
+
+.headerl h3:first-child{
+    color: #3DB54A;
+}
+
+.headerlbell{
+    color: #3DB54A;
+    font-size: 18px;
+    margin-top: 22px;
+    padding: 0px 5px;
+}
+
+.headermicon{
+    padding: 10px;
+    font-size: 18px;
+    color: #3DB54A;
+    vertical-align: middle;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.headerr{
+    display: flex;
+    /*margin: 14px 0px;*/
+}
+
+.headerrt{
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.headerricon{
+    color: #3DB54A;
+    margin: 18px 0px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: 'Louis George Cafe Light', sans-serif;
+    
+}
+
+.navsearch{
+    margin-top: 30px;
+}
+
+.navsearchbar{
+    height: 40px;
+    width: 350px;
+    vertical-align: middle;
+    font-family: 'Louis George Cafe Light', sans-serif;
+    border: 1px solid #3DB54A;
+    border-radius: 24px;
+    margin-left: 115px;
+    
+}
+
+.navsearchbartool{
+    font-size: 18px;
+    border: 1px solid #3DB54A;
+    color: white;
+    background-color: #3DB54A;
+    border-radius: 24px;
+    vertical-align: middle;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+.navfavcart{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.navfavcart h3{
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 45px;
+}
+
+.navfavcarticon{
+    vertical-align: middle;
+    margin-top: 14px;
+    font-size: 24px;
+    color: #3DB54A;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Louis George Cafe Light', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
